@@ -43,6 +43,7 @@ class _ChatStateState extends State<ChatState> with TickerProviderStateMixin {
               itemCount: _message.length,
             ),
           ),
+          new Divider(height: 1.0,),
           new Container(
             decoration: new BoxDecoration(color: Theme.of(context).cardColor),
             child: _buildTextComposer(),
